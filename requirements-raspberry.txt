@@ -1,0 +1,13 @@
+# Optimized for Raspberry Pi 4
+tflite-runtime>=2.13.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+requests>=2.31.0
+aiohttp>=3.8.0
+firebase-admin>=6.2.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
+picamera2>=0.3.12
+RPi.GPIO>=0.7.1
+smbus2>=0.4.2

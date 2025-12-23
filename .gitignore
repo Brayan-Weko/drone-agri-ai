@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+venv/
+ENV/
+
+# Data files (trop volumineux)
+data/*.zip
+data/*.tar.gz
+data/raw/
+data/processed/
+
+# Models (trop volumineux - utiliser Git LFS ou releases)
+models/*.h5
+models/*.tflite
+models/*.onnx
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
