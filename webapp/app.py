@@ -60,3 +60,7 @@ def analyze():
         if 'image' in request.files:
             # Upload de fichier
             file = request.files['image']
+        return jsonify({'error': 'No image provided'}), 400
+    except Exception as e:
+        logger.error(f"Error during analysis: {e}")
+        return jsonify({'error': str(e)}), 500
